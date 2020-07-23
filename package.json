@@ -4,8 +4,5 @@
     "run": "bash ./create-snapshot.sh"
   },
   "author": "SSen <i@ssen.name>",
-  "license": "MIT",
-  "dependencies": {
-    "diff": "^4.0.2"
-  }
+  "license": "MIT"
 }
