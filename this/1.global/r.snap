@@ -1,13 +1,12 @@
 >>> main
-this is the global object
-DebugPrint: 0x6e8080c2aa1: [JSGlobalProxy]
- - map: 0x06e80828635d <Map(HOLEY_ELEMENTS)> [FastProperties]
- - prototype: 0x06e80824fce9 <JSObject>
- - elements: 0x06e8080426e5 <FixedArray[0]> [HOLEY_ELEMENTS]
- - hash: 539172
- - native context: 0x06e808242fc5 <NativeContext[242]>
+DebugPrint: 0x2199080c2aa1: [JSGlobalProxy]
+ - map: 0x21990828635d <Map(HOLEY_ELEMENTS)> [FastProperties]
+ - prototype: 0x21990824fce9 <JSObject>
+ - elements: 0x2199080426e5 <FixedArray[0]> [HOLEY_ELEMENTS]
+ - hash: 952069
+ - native context: 0x219908242fc5 <NativeContext[242]>
  - properties:  {}
-0x6e80828635d: [Map]
+0x21990828635d: [Map]
  - type: JS_GLOBAL_PROXY_TYPE
  - instance size: 16
  - inobject properties: 0
@@ -17,25 +16,24 @@ DebugPrint: 0x6e8080c2aa1: [JSGlobalProxy]
  - stable_map
  - may_have_interesting_symbols
  - access_check_needed
- - back pointer: 0x06e808042309 <undefined>
- - prototype_validity cell: 0x06e8081c244d <Cell value= 1>
- - instance descriptors (own) #0: 0x06e8080421b1 <DescriptorArray[0]>
- - prototype: 0x06e80824fce9 <JSObject>
- - constructor: 0x06e80824fd25 <JSFunction (sfi = 0x6e80824fcfd)>
- - dependent code: 0x06e8080421e9 <Other heap object (WEAK_FIXED_ARRAY_TYPE)>
+ - back pointer: 0x219908042309 <undefined>
+ - prototype_validity cell: 0x2199081c244d <Cell value= 1>
+ - instance descriptors (own) #0: 0x2199080421b1 <DescriptorArray[0]>
+ - prototype: 0x21990824fce9 <JSObject>
+ - constructor: 0x21990824fd25 <JSFunction (sfi = 0x21990824fcfd)>
+ - dependent code: 0x2199080421e9 <Other heap object (WEAK_FIXED_ARRAY_TYPE)>
  - construction counter: 0
 
 <<<
 >>> function
-this is the global object
-DebugPrint: 0x6e8080c2aa1: [JSGlobalProxy]
- - map: 0x06e80828635d <Map(HOLEY_ELEMENTS)> [FastProperties]
- - prototype: 0x06e80824fce9 <JSObject>
- - elements: 0x06e8080426e5 <FixedArray[0]> [HOLEY_ELEMENTS]
- - hash: 539172
- - native context: 0x06e808242fc5 <NativeContext[242]>
+DebugPrint: 0x2199080c2aa1: [JSGlobalProxy]
+ - map: 0x21990828635d <Map(HOLEY_ELEMENTS)> [FastProperties]
+ - prototype: 0x21990824fce9 <JSObject>
+ - elements: 0x2199080426e5 <FixedArray[0]> [HOLEY_ELEMENTS]
+ - hash: 952069
+ - native context: 0x219908242fc5 <NativeContext[242]>
  - properties:  {}
-0x6e80828635d: [Map]
+0x21990828635d: [Map]
  - type: JS_GLOBAL_PROXY_TYPE
  - instance size: 16
  - inobject properties: 0
@@ -45,25 +43,25 @@ DebugPrint: 0x6e8080c2aa1: [JSGlobalProxy]
  - stable_map
  - may_have_interesting_symbols
  - access_check_needed
- - back pointer: 0x06e808042309 <undefined>
- - prototype_validity cell: 0x06e8081c244d <Cell value= 1>
- - instance descriptors (own) #0: 0x06e8080421b1 <DescriptorArray[0]>
- - prototype: 0x06e80824fce9 <JSObject>
- - constructor: 0x06e80824fd25 <JSFunction (sfi = 0x6e80824fcfd)>
- - dependent code: 0x06e8080421e9 <Other heap object (WEAK_FIXED_ARRAY_TYPE)>
+ - back pointer: 0x219908042309 <undefined>
+ - prototype_validity cell: 0x2199081c244d <Cell value= 1>
+ - instance descriptors (own) #0: 0x2199080421b1 <DescriptorArray[0]>
+ - prototype: 0x21990824fce9 <JSObject>
+ - constructor: 0x21990824fd25 <JSFunction (sfi = 0x21990824fcfd)>
+ - dependent code: 0x2199080421e9 <Other heap object (WEAK_FIXED_ARRAY_TYPE)>
  - construction counter: 0
 
 <<<
 >>> arrow
-this is the global object
-DebugPrint: 0x6e8080c2aa1: [JSGlobalProxy]
- - map: 0x06e80828635d <Map(HOLEY_ELEMENTS)> [FastProperties]
- - prototype: 0x06e80824fce9 <JSObject>
- - elements: 0x06e8080426e5 <FixedArray[0]> [HOLEY_ELEMENTS]
- - hash: 539172
- - native context: 0x06e808242fc5 <NativeContext[242]>
+>>> function
+DebugPrint: 0x2199080c2aa1: [JSGlobalProxy]
+ - map: 0x21990828635d <Map(HOLEY_ELEMENTS)> [FastProperties]
+ - prototype: 0x21990824fce9 <JSObject>
+ - elements: 0x2199080426e5 <FixedArray[0]> [HOLEY_ELEMENTS]
+ - hash: 952069
+ - native context: 0x219908242fc5 <NativeContext[242]>
  - properties:  {}
-0x6e80828635d: [Map]
+0x21990828635d: [Map]
  - type: JS_GLOBAL_PROXY_TYPE
  - instance size: 16
  - inobject properties: 0
@@ -73,12 +71,12 @@ DebugPrint: 0x6e8080c2aa1: [JSGlobalProxy]
  - stable_map
  - may_have_interesting_symbols
  - access_check_needed
- - back pointer: 0x06e808042309 <undefined>
- - prototype_validity cell: 0x06e8081c244d <Cell value= 1>
- - instance descriptors (own) #0: 0x06e8080421b1 <DescriptorArray[0]>
- - prototype: 0x06e80824fce9 <JSObject>
- - constructor: 0x06e80824fd25 <JSFunction (sfi = 0x6e80824fcfd)>
- - dependent code: 0x06e8080421e9 <Other heap object (WEAK_FIXED_ARRAY_TYPE)>
+ - back pointer: 0x219908042309 <undefined>
+ - prototype_validity cell: 0x2199081c244d <Cell value= 1>
+ - instance descriptors (own) #0: 0x2199080421b1 <DescriptorArray[0]>
+ - prototype: 0x21990824fce9 <JSObject>
+ - constructor: 0x21990824fd25 <JSFunction (sfi = 0x21990824fcfd)>
+ - dependent code: 0x2199080421e9 <Other heap object (WEAK_FIXED_ARRAY_TYPE)>
  - construction counter: 0
 
 <<<
