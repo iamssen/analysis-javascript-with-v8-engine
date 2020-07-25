@@ -1,0 +1,18 @@
+this is undefined
+DebugPrint: 0xf8808042309: [Oddball] in ReadOnlySpace: #undefined
+0xf8808042325: [Map] in ReadOnlySpace
+ - type: ODDBALL_TYPE
+ - instance size: 28
+ - elements kind: HOLEY_ELEMENTS
+ - unused property fields: 0
+ - enum length: invalid
+ - stable_map
+ - undetectable
+ - non-extensible
+ - back pointer: 0x0f8808042309 <undefined>
+ - prototype_validity cell: 0
+ - instance descriptors (own) #0: 0x0f88080421b1 <DescriptorArray[0]>
+ - prototype: 0x0f880804216d <null>
+ - constructor: 0x0f880804216d <null>
+ - dependent code: 0x0f88080421e9 <Other heap object (WEAK_FIXED_ARRAY_TYPE)>
+ - construction counter: 0

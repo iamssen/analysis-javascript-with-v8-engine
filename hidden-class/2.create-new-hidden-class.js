@@ -5,22 +5,21 @@ function Class(x) {
 const a = new Class(1);
 const b = new Class(1);
 
-console.log(`a and b are shared the same hidden class.`);
+console.assert(%HaveSameMap(a, b), `a and b should have the same hidden class.`);
 
 console.log('>>> a');
-%
-DebugPrint(a);
+%DebugPrint(a);
 console.log('<<<');
 
 console.log('>>> b');
-%
-DebugPrint(b);
+%DebugPrint(b);
 console.log('<<<');
 
-console.log(`b1 should create a new hidden class. a and b no longer share the same hidden class.`);
+
 
 b.y = 10;
+console.assert(!%HaveSameMap(a, b), `b1 should create a new hidden class. a and b no longer have the same hidden class.`);
+
 console.log('>>> b1');
-%
-DebugPrint(b);
+%DebugPrint(b);
 console.log('<<<');

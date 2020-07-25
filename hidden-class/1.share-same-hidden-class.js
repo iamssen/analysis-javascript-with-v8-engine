@@ -5,7 +5,7 @@ function Class(x) {
 const a = new Class(1);
 const b = new Class(1);
 
-console.log(`a and b are shared the same hidden class.`);
+console.assert(%HaveSameMap(a, b), `a and b should have the same hidden class.`);
 
 console.log('>>> a');
 %DebugPrint(a);

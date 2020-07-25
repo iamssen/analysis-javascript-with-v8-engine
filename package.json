@@ -1,8 +1,8 @@
 {
   "private": true,
+  "author": "SSen <i@ssen.name>",
+  "license": "MIT",
   "scripts": {
     "run": "bash ./create-snapshot.sh"
-  },
-  "author": "SSen <i@ssen.name>",
-  "license": "MIT"
+  }
 }

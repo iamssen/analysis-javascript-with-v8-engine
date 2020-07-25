@@ -6,7 +6,7 @@ const source = fs.readFileSync(file, 'utf8');
 // ---------------------------------------------
 // create blocks
 // ---------------------------------------------
-const blockStart = />>> ([a-z0-9]+)/;
+const blockStart = />>> ([a-z0-9.\-]+)/;
 const blockEnd = /<<</;
 
 if (blockStart.test(source)) {
